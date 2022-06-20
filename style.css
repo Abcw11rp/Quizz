@@ -1,0 +1,79 @@
+/* .true{
+    background-color: lightgreen;
+}
+.false{
+    background-color: red;
+}
+.hide{
+    display: none;
+} */
+body, button{
+  background-color:#1B2430;
+  color:#D6D5A8;
+  font-family: 'Roboto'
+}
+body{
+  padding-bottom: 3rem;
+}
+.true{
+    border-style:solid;
+    border-color: #3EC70B;
+}
+.false{
+  border-style:solid;
+    border-color: red;
+}
+.hide{
+    display: none;
+}
+#container{
+  display:flex;
+  justify-content:center;
+  margin-left:20%;
+  width:50%;
+  font-size:2rem;
+  padding: 5% 0 5%;
+}
+.ans-list{
+  border-style:solid;
+  border-width:thin;
+  margin:20% auto;
+  width:100%;
+  display: inline-block;
+}
+.ans-list:hover{
+  background-color:#D6D5A8;
+  color:black;
+}
+button{
+  width:8rem;
+  font-size:1.5rem;
+}
+button:hover{
+  background-color:#CD1818;
+}
+.ans-wrong{
+  border-style:solid;
+  width:50%;
+  padding-bottom:1rem;
+  text-align:center;
+  border-color:red;
+  margin: auto;
+}
+.ans-true{
+  border-style:solid;
+  width:50%;
+  padding-bottom:1rem;
+  text-align:center;
+  border-color:#3EC70B;;
+  margin: auto;
+}
+.question{
+  text-align: center;
+}
+.ans{
+  display: none;
+}
+.answer input[type="radio"]:checked+label{ 
+  background-color: #FFA500;}
+  
